@@ -1,6 +1,6 @@
-project: kord
-target: kord-fuzz
+project: blisp
+target: blisp-fuzz
 
 cmds:
-    - cmd: ./kord-fuzz
+    - cmd: ./blisp-fuzz
       libfuzzer: true
