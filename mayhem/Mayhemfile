@@ -1,0 +1,6 @@
+project: blisp
+target: blisp-fuzz
+
+cmds:
+    - cmd: ./blisp-fuzz
+      libfuzzer: true
